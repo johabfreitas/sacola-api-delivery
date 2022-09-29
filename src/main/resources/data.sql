@@ -17,7 +17,8 @@ INSERT INTO produto (id, disponivel, nome, valor_unitario, restaurante_id) VALUE
 (6l, true, 'Pastel de Queijo', 2.0, 3l);
 
 INSERT INTO sacola (id, forma_pagamento, fechada, valor_total, cliente_id) VALUES
-(1l, 0, false, 0.0, 1l);
+(1l, 0, false, 0.0, 1l),
+(2l, 6, true, 50.0, 2l);
 
 INSERT INTO item (id, quantidade, produto_id, sacola_id) VALUES
 (1l, 3, 5l, 1l);
