@@ -4,9 +4,11 @@ import br.com.johabfreitas.sacola.model.Item;
 import br.com.johabfreitas.sacola.model.Sacola;
 import br.com.johabfreitas.sacola.resource.dto.ItemDto;
 import br.com.johabfreitas.sacola.service.SacolaService;
+import io.swagger.annotations.Api;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
+@Api(value="/ifooc-devweek/sacolas")
 @RestController // Com essa anotação informo para o Spring que esta classe vai conter os endpoint;
 @RequestMapping("/ifood-devweek/sacolas")
 @RequiredArgsConstructor
